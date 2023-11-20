@@ -1,0 +1,14 @@
+Select * From etudiant;
+select libMat as libelle, coefMat From matiere ;
+select nomEtud, ville From etudiant order by nomEtud desc ;
+select * from matiere where coefMat >= 2;
+select nomEtud, prenomEtu, dateEtu, email from etudiant where etudiant.sex = 'M';
+select * from etudiant order by dateEtu ;
+select * from evaluation where dateEval between '2021/12/01' and '2022/04/19';
+select codeMat, note from evaluation where codeEtud ='E1';
+select codeMat, note from evaluation where codeEtud ='E1' and note >'16';
+select * from etudiant where prenomEtu like '%a';
+select * from etudiant where prenomEtu like '%a%';
+select * from etudiant where prenomEtu like '_a%';
+select * from etudiant where prenomEtu not like '_a%';
+select * from etudiant where ville = 'Alger' and sex ='f' and nomEtud like 'L%' and nomEtud not like '%e%';
