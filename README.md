@@ -4,9 +4,11 @@ A social media MERN project, allowing users to post and interact with each other
 1. Clone the repository:
    ```bash
    git clone https://github.com/Sadli004/PicHub.git
-2. npm install
-3. cd client
-4. npm install   
+2. Install the depandencies : 
+   ```bash
+   npm install
+   cd client
+   npm install   
 ## Usage
 after starting the project, navigate to : "http://localhost:YOUR_CLIENT_URL".
 First you'll be headec to the login/register page then to the home page.
